@@ -73,11 +73,11 @@ a:hover {
 }
 
 .courses-container .courses .course {
-    border-bottom-color: #ef60a1;
+    border-bottom-color: #ef60a1 !important;
 }
 
 .courses-container .courses .course .course-image .cover-image .learn-more {
-    background-color: #ef60a1 @!important;
+    background-color: #ef60a1 !important;
 }
 
 .highlighted-courses .courses .course, 
