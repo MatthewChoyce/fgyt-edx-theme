@@ -4,8 +4,8 @@ $blue: rgb(94, 0, 0);
 
 .global-header {
     height: 90px;
-    border-bottom: 5px;
-    border-color: #ef60a1;
+    border-bottom: solid 5px !important;
+    border-color: #ef60a1 !important;
     background-color: #424491;
 
     .wrapper-header {
@@ -15,29 +15,30 @@ $blue: rgb(94, 0, 0);
 }
 
 .nav-links .secondary a.sign-in-btn {
-    background-color: #ef60a1;
-    color: #fff;
+    background-color: #ef60a1 !important;
+    color: #fff !important;
 }
 
 .nav-links .secondary a.sign-in-btn:hover {
-    background-color: #fff;
-    color: #ef60a1;
-    border-color: #ef60a1;
+    background-color: #fff !important;
+    color: #ef60a1 !important;
+    border-color: #ef60a1 !important;
 }
 
 .nav-links .secondary a.register-btn {
-    background: #fff;
-    color: #ef60a1;
-    border: #fff;
+    background: #fff !important;
+    color: #ef60a1 !important;
+    border: #fff !important;
 }
 
 .nav-links .secondary a.register-btn:hover {
-    background: #ef60a1;
-    color: #fff;
+    background: #ef60a1 !important;
+    color: #fff !important;
 }
 
 a:hover {
     color: #ef60a1 !important;
+    text-decoration: none !important;
 }
 
 .home > header {
