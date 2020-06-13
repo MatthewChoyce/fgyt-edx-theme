@@ -6,7 +6,8 @@ $blue: rgb(94, 0, 0);
     height: 90px;
     border-bottom: solid 5px !important;
     border-color: #ef60a1 !important;
-    background-color: #424491;
+    background-color: #424491 !important;
+    color: #fff !important;
 
     .wrapper-header {
         padding-top: 25px;
@@ -36,9 +37,15 @@ $blue: rgb(94, 0, 0);
     color: #fff !important;
 }
 
+.nav-tab a.active {
+    color: #ef60a1 !important;
+    border-bottom-style: none !important;
+    font-weight: bold;
+}
+
 a:hover {
     color: #ef60a1 !important;
-    text-decoration: none !important;
+    border-bottom: none !important;
 }
 
 .home > header {
