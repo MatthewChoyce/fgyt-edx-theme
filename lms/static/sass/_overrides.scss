@@ -15,6 +15,17 @@ $blue: rgb(94, 0, 0);
     }
 }
 
+.btn-primary {
+    background-color: #ef60a1 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background-color: #fff !important;
+    color: #ef60a1 !important;
+    border-color: #ef60a1 !important;
+}
+
 .nav-links .secondary a.sign-in-btn {
     background-color: #ef60a1 !important;
     color: #fff !important;
