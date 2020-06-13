@@ -7,7 +7,6 @@ $blue: rgb(94, 0, 0);
     border-bottom: solid 5px !important;
     border-color: #ef60a1 !important;
     background-color: #424491 !important;
-    color: #fff !important;
 
     .wrapper-header {
         padding-top: 25px;
@@ -49,10 +48,14 @@ $blue: rgb(94, 0, 0);
     color: #fff !important;
 }
 
+nav-tab a {
+    color: #ffffff !important;
+}
+
 .nav-tab a.active {
     color: #ef60a1 !important;
-    border-bottom-style: none !important;
-    font-weight: bold;
+    border-color: #ffffff !important;
+    font-weight: bold !important;
 }
 
 .nav-item {
@@ -74,12 +77,40 @@ a:hover {
 }
 
 .courses-container .courses .course .course-image .cover-image .learn-more {
-    background-color: #ef60a1
+    background-color: #ef60a1 @!important;
 }
 
 .highlighted-courses .courses .course, 
 .find-courses .courses .course {
-    border-color: #ef60a1
+    border-color: #ef60a1 !important;
+}
+
+.view-profile .profile-self .wrapper-profile-field-account-privacy .wrapper-profile-records button {
+    margin-top: 1em;
+    background: #424491 !important;
+    color: #fff;
+}
+
+.login aside .btn-login .btn-login-action:hover, .register aside .btn-login .btn-login-action:hover, .passwordreset aside .btn-login .btn-login-action:hover, #forgot-password-modal #password-reset aside .btn-login .btn-login-action:hover, .login-register .login-provider:hover, .financial-assistance-wrapper .financial-assistance-form .login-provider:hover, .login .form-actions.form-third-party-auth button[type="submit"]:hover, .register .form-actions.form-third-party-auth button[type="submit"]:hover, .passwordreset .form-actions.form-third-party-auth button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions.form-third-party-auth button[type="submit"]:hover, .login-register .nav-btn:hover, .financial-assistance-wrapper .financial-assistance-form .nav-btn:hover, .login-register .button-secondary-login:hover, .financial-assistance-wrapper .financial-assistance-form .button-secondary-login:hover, .wrapper-authorize .btn-authorization-cancel:hover, .view-profile .profile-self .wrapper-profile-field-account-privacy .wrapper-profile-records button:hover, .login aside .btn-login .btn-login-action:active, .register aside .btn-login .btn-login-action:active, .passwordreset aside .btn-login .btn-login-action:active, #forgot-password-modal #password-reset aside .btn-login .btn-login-action:active, .login-register .login-provider:active, .financial-assistance-wrapper .financial-assistance-form .login-provider:active, .login .form-actions.form-third-party-auth button[type="submit"]:active, .register .form-actions.form-third-party-auth button[type="submit"]:active, .passwordreset .form-actions.form-third-party-auth button[type="submit"]:active, #forgot-password-modal #password-reset .form-actions.form-third-party-auth button[type="submit"]:active, .login-register .nav-btn:active, .financial-assistance-wrapper .financial-assistance-form .nav-btn:active, .login-register .button-secondary-login:active, .financial-assistance-wrapper .financial-assistance-form .button-secondary-login:active, .wrapper-authorize .btn-authorization-cancel:active, .view-profile .profile-self .wrapper-profile-field-account-privacy .wrapper-profile-records button:active, .login aside .btn-login .btn-login-action:focus, .register aside .btn-login .btn-login-action:focus, .passwordreset aside .btn-login .btn-login-action:focus, #forgot-password-modal #password-reset aside .btn-login .btn-login-action:focus, .login-register .login-provider:focus, .financial-assistance-wrapper .financial-assistance-form .login-provider:focus, .login .form-actions.form-third-party-auth button[type="submit"]:focus, .register .form-actions.form-third-party-auth button[type="submit"]:focus, .passwordreset .form-actions.form-third-party-auth button[type="submit"]:focus, #forgot-password-modal #password-reset .form-actions.form-third-party-auth button[type="submit"]:focus, .login-register .nav-btn:focus, .financial-assistance-wrapper .financial-assistance-form .nav-btn:focus, .login-register .button-secondary-login:focus, .financial-assistance-wrapper .financial-assistance-form .button-secondary-login:focus, .wrapper-authorize .btn-authorization-cancel:focus, .view-profile .profile-self .wrapper-profile-field-account-privacy .wrapper-profile-records button:focus {
+    box-shadow: 0 2px 1px 0 #0a4a67;
+    background: #ef60a1 !important;
+    color: #fff;
+}
+
+.view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
+    border-top: 5px solid #ef60a1 !important;
+}
+
+.view-profile .wrapper-profile-section-container-two .u-field.mode-placeholder:hover {
+    border: 2px dashed #ef60a1 !important;
+}
+
+.view-profile .wrapper-profile-section-container-two .u-field.mode-placeholder:hover .u-field-title, .view-profile .wrapper-profile-section-container-two .u-field.mode-placeholder:hover i {
+    color: #ef60a1 !important;
+}
+
+.u-field.mode-placeholder:hover span {
+    color: #ef60a1 !important;
 }
 
 .header-global .nav-courseware li .btn, 
