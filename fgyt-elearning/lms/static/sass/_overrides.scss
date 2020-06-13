@@ -5,6 +5,7 @@ $blue: rgb(94, 0, 0);
 .header-global {
     height: 90px;
     border-bottom: none;
+    background-color: #424491;
 
     .wrapper-header {
         padding-top: 25px;
@@ -13,11 +14,11 @@ $blue: rgb(94, 0, 0);
 }
 
 .home > header {
-    background-color: #5e0000;
+    background-color: #ffffff;
 }
 
 .courses-container .courses .course {
-    border-bottom-color: #5e0000;
+    border-bottom-color: #ef60a1;
 }
 
 .courses-container .courses .course .course-image .cover-image .learn-more {
