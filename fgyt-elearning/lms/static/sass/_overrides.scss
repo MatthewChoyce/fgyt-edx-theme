@@ -4,7 +4,8 @@ $blue: rgb(94, 0, 0);
 
 .global-header {
     height: 90px;
-    border-bottom: none;
+    border-bottom: 5px;
+    border-color: #ef60a1;
     background-color: #424491;
 
     .wrapper-header {
