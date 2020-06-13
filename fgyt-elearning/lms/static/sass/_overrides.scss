@@ -14,30 +14,30 @@ $blue: rgb(94, 0, 0);
     }
 }
 
-.sign-in-btn {
+.nav-links .secondary a.sign-in-btn {
     background-color: #ef60a1;
     color: #fff;
 }
 
-.sign-in-btn:hover {
+.nav-links .secondary a.sign-in-btn:hover {
     background-color: #fff;
     color: #ef60a1;
     border-color: #ef60a1;
 }
 
-.register-btn {
+.nav-links .secondary a.register-btn {
     background: #fff;
     color: #ef60a1;
     border: #fff;
 }
 
-.register-btn:hover {
+.nav-links .secondary a.register-btn:hover {
     background: #ef60a1;
     color: #fff;
 }
 
 a:hover {
-    color: #ef60a1;
+    color: #ef60a1 !important;
 }
 
 .home > header {
