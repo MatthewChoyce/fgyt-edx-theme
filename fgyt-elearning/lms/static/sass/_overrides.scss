@@ -12,28 +12,28 @@ $blue: rgb(94, 0, 0);
         padding-top: 25px;
         padding-bottom: 25px;
     }
+}
 
-    a.sign-in-btn {
-        background-color: #ef60a1;
-        color: #fff;
-    }
+.sign-in-btn {
+    background-color: #ef60a1;
+    color: #fff;
+}
 
-    a.sign-in-btn:hover {
-        background-color: #fff;
-        color: #ef60a1;
-        border-color: #ef60a1;
-    }
+.sign-in-btn:hover {
+    background-color: #fff;
+    color: #ef60a1;
+    border-color: #ef60a1;
+}
 
-    a.register-btn {
-        background: #fff;
-        color: #ef60a1;
-        border: #fff;
-    }
+.register-btn {
+    background: #fff;
+    color: #ef60a1;
+    border: #fff;
+}
 
-    a.register-btn:hover {
-        background: #ef60a1;
-        color: #fff;
-    }
+.register-btn:hover {
+    background: #ef60a1;
+    color: #fff;
 }
 
 a:hover {
