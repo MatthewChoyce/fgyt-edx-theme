@@ -16,14 +16,15 @@ $blue: rgb(94, 0, 0);
 }
 
 .btn-primary {
-    background-color: #ef60a1 !important;
-    color: #fff !important;
+    background-color: #ffffff !important;
+    color: #ef60a1 !important;
+    border-color: #ef60a1 !important;
 }
 
 .btn-primary:hover {
-    background-color: #fff !important;
-    color: #ef60a1 !important;
-    border-color: #ef60a1 !important;
+    background-color: #ef60a1 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
 
 .nav-links .secondary a.sign-in-btn {
@@ -52,6 +53,11 @@ $blue: rgb(94, 0, 0);
     color: #ef60a1 !important;
     border-bottom-style: none !important;
     font-weight: bold;
+}
+
+.nav-item {
+    color: #ffffff !important;
+    border-bottom: none !important;
 }
 
 a:hover {
